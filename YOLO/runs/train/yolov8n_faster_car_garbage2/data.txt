@@ -1,0 +1,12 @@
+100 epochs completed in 11.440 hours.
+Optimizer stripped from D:\RflySim\RflySimAPIs\\Car&Garbage\runs\train\yolov8n_faster_car_garbage2\weights\last.pt, 4.6MB
+Optimizer stripped from D:\RflySim\RflySimAPIs\\Car&Garbage\runs\train\yolov8n_faster_car_garbage2\weights\best.pt, 4.6MB
+
+Validating D:\RflySim\RflySimAPIs\\Car&Garbage\runs\train\yolov8n_faster_car_garbage2\weights\best.pt...
+Ultralytics 8.3.240  Python-3.13.9 torch-2.9.1+cpu CPU (AMD Ryzen AI 9 H 365 w/ Radeon 880M)
+YOLOv8n-faster summary (fused): 76 layers, 2,184,118 parameters, 0 gradients, 6.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 31/31 1.9it/s 16.3s
+                   all        489        807      0.867      0.794      0.856      0.542
+                   car        174        449      0.847      0.814      0.884      0.599
+               garbage        315        358      0.888      0.775      0.828      0.485
+Speed: 0.6ms preprocess, 28.6ms inference, 0.0ms loss, 0.2ms postprocess per image
